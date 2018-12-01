@@ -30,4 +30,8 @@ $(document).ready(function(){
     // previous
 
     $('#contact-methods').prev().css({border: "2px solid purple"});
+
+    // Parent(only use parent element) || parents (use all the parents)
+    $('.banner-title').parent().css({border: "2px solid #33ffbd"});
+
 });
