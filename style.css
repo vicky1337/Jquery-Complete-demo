@@ -245,6 +245,20 @@ section#points-of-sale ul{
     line-height: 1.4em;
 }
 
+#tweets{
+    background: green;
+    color: #fff;
+    padding: 8px;
+    text-align: center;
+    width: 250px;
+    text-transform: uppercase;
+    position: relative;
+    top: -45px;
+    margin: 0 auto;
+    border-left: 16px solid #fff;
+    border-right: 16px solid #fff;
+}
+
 #clients, #contact{
     border-top: 1px solid #ccc;
     padding-top: 30px
@@ -268,6 +282,7 @@ section#points-of-sale ul{
     float: left;
     width: 30%;
 }
+
 
 #clients blockquote{
     float: right;

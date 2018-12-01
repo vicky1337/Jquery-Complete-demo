@@ -47,11 +47,11 @@ $(document).ready(function(){
 
     ////////////// ADDING OR CHANGING CONTENT //////////////////
 
+     
 
 
 
 
-    
     /*
     .append() adds content to the bottom of the elements
     .prepend() adds content to top of element
