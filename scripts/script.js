@@ -40,6 +40,24 @@ $(document).ready(function(){
 
 
     //Find method very flexible and easy to use {find also faster in performance}
-    $('#contact ').find('.twitter').css({border: "2px solid black"})
+    $('#contact ').find('.twitter').css({border: "2px solid black"});
 
+    //Closest
+    $('#social-nav').closest('.wrapper').css({border: "2px solid black"})
+
+    ////////////// ADDING OR CHANGING CONTENT //////////////////
+
+
+
+
+
+    
+    /*
+    .append() adds content to the bottom of the elements
+    .prepend() adds content to top of element
+    .before()  adds content before element
+    .after()   adds content after element
+    .html()    changes the whole html of the element
+    .text()    changes the text of an element
+    */
 });
