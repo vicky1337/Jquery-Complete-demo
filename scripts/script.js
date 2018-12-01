@@ -73,24 +73,61 @@ $(document).ready(function(){
 
      /////// WRAP , UNWRAP ,UNWRAPALL //////
 
-        var wrapper = "<div class='wrapper'>";
-        var button = $(".button");
-        var wrapped = true;
+        // var wrapper = "<div class='wrapper'>";
+        // var button = $(".button");
+        // var wrapped = true;
 
-        button[0].onclick = function(){
-
-
-          if(wrapped){
-
-          }
-          else{
-
-          }
+        // button[0].onclick = function(){
 
 
-        }
+        //   if(wrapped){
+
+        //    $("section").unwrap();
+        //    wrapped = false;
+        //    button.text('WRAP');
+        //   }
+        //   else{
+
+        //     $("section").wrapAll(wrapper);
+        //     wrapped = true;
+        //     button.text('UNWRAP');
+
+        //   }
 
 
+        // }
 
-  
+        ///////////  REMOVE AND EMPTY METHODS    ///////////////
+
+        // EMPTY empties the inner HTML inside your element
+          
+        // $('.button').empty();
+
+        // REMOVE  delete the whole element {handle with care :)}
+
+
+        // $('.button').remove();
+
+        ////////// ATTRIBUTE .removeAttr() and .attr()  /////////
+
+
+                    // $('#contact img').removeAttr('alt');
+
+
+                    // $('#contact img').attr('atl' , 'location');
+
+
+        ////// REMOVECLASS , ADDCLASS AND TOGGLECLASS   /////////
+
+                    $('header .wrapper').removeClass("wrapper");
+
+                    $('header > div').addClass("wrapper");
+
+
+                    // var button = $('#lead-banner a');
+                    // button[0].onclick = function(){
+                    //    $('#point-of-sale').toogleClass("open");
+                    //    return false;
+                    // };
+            
 });
