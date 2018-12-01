@@ -126,7 +126,7 @@ $(document).ready(function(){
 
                     // var button = $('#lead-banner a');
                     // button[0].onclick = function(){
-                    //    $('#point-of-sale').toogleClass("open");
+                    //    $('#point-of-sale').toogleClass("open"); // {open is css here check the css file}//
                     //    return false;
                     // };
             
