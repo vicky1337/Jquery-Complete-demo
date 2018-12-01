@@ -31,7 +31,15 @@ $(document).ready(function(){
 
     $('#contact-methods').prev().css({border: "2px solid purple"});
 
-    // Parent(only use parent element) || parents (use all the parents)
+    // Parent (only use parent element) || Parents (use all the parents)
     $('.banner-title').parent().css({border: "2px solid #33ffbd"});
+
+    // Children
+
+    $('#social-nav').children().css({border: "1px solid purple"});
+
+
+    //Find method very flexible and easy to use {find also faster in performance}
+    $('#contact ').find('.twitter').css({border: "2px solid black"})
 
 });
