@@ -45,19 +45,30 @@ $(document).ready(function(){
     //Closest
     $('#social-nav').closest('.wrapper').css({border: "2px solid black"})
 
-    ////////////// ADDING OR CHANGING CONTENT //////////////////
+    ////////////// ADDING OR CHANGING CONTENT BEGIN //////////////////
+
+     var tweet = "<div style='margin: 20px 0; padding: 10px; background: #eee'> this bug is solved by red team</div>";
 
      
+    //  .append() adds content to the bottom of the elements
+      $('#tweets div p').append(tweet);
+
+    // .prepend() adds content to top of element
+    $('#tweets div').prepend(tweet);
+
+    // .before()  adds content before element
+    $('#tweets div').before(tweet);
+
+    // .after()   adds content after element
+    $('#tweets div').after(tweet);
+
+    // .html()    changes the whole html of the element
+    $('#tweets div').html(tweet);
+
+    // .text()    changes the text of an element
+    $('#tweets div').text(tweet);
 
 
-
-
-    /*
-    .append() adds content to the bottom of the elements
-    .prepend() adds content to top of element
-    .before()  adds content before element
-    .after()   adds content after element
-    .html()    changes the whole html of the element
-    .text()    changes the text of an element
-    */
+        ////////////// ADDING OR CHANGING CONTENT ENDS //////////////////
+  
 });
