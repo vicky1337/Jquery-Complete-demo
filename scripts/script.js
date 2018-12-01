@@ -70,5 +70,27 @@ $(document).ready(function(){
 
 
         ////////////// ADDING OR CHANGING CONTENT ENDS //////////////////
+
+     /////// WRAP , UNWRAP ,UNWRAPALL //////
+
+        var wrapper = "<div class='wrapper'>";
+        var button = $(".button");
+        var wrapped = true;
+
+        button[0].onclick = function(){
+
+
+          if(wrapped){
+
+          }
+          else{
+
+          }
+
+
+        }
+
+
+
   
 });
