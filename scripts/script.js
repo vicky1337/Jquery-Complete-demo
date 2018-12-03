@@ -71,6 +71,8 @@ $(document).ready(function(){
 
         ////////////// ADDING OR CHANGING CONTENT ENDS //////////////////
 
+    
+    
      /////// WRAP , UNWRAP ,UNWRAPALL //////
 
         // var wrapper = "<div class='wrapper'>";
