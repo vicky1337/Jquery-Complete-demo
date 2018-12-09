@@ -121,6 +121,7 @@ $(document).ready(function(){
 
         ////// REMOVECLASS , ADDCLASS AND TOGGLECLASS   /////////
 
+    
                     $('header .wrapper').removeClass("wrapper");
 
                     $('header > div').addClass("wrapper");
